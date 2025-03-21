@@ -18,7 +18,7 @@ export interface WatchLink {
 
 export const socialLinks = {
   youtube: 'https://www.youtube.com/@Kirdarbarcelona',
-  instagram: 'https://www.instagram.com/Kirdarbarcelona'
+  instagram: 'https://www.instagram.com/kirdarbarcelonayt/'
 };
 
 // Sample data - can be easily updated
