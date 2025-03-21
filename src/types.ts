@@ -29,7 +29,7 @@ export const matches: Match[] = [
     awayTeam: 'Argentina',
     date: '2025-03-20',
     time: '20:00',
-    competition: 'Premier League',
+    competition: 'Fifa',
     status: 'upcoming'
   },
   // {
@@ -75,8 +75,15 @@ export const watchLinks: Record<string, WatchLink[]> = {
       url: 'https://live.epicsportss.com/p/matchday17.html',
       quality: '4K',
       language: 'English'
+    },
+     {
+      id: '0-0',
+      name: 'Stream 3',
+      url: 'https://youtube.com/live/jGkWUUzXDvE?feature=share',
+      quality: '4K',
+      language: 'Youtube'
     }
-//   ],
+//  ],
 //   '2': [
 //     {
 //       id: '2-1',
