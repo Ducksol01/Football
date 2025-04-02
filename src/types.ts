@@ -25,8 +25,8 @@ export const socialLinks = {
 export const matches: Match[] = [
   {
     id: '1',
-    homeTeam: 'Uruguay',
-    awayTeam: 'Argentina',
+    homeTeam: 'Atletico Madrid',
+    awayTeam: 'Barcelona',
     date: '2025-03-20',
     time: '20:00',
     competition: 'Fifa',
@@ -65,21 +65,21 @@ export const watchLinks: Record<string, WatchLink[]> = {
     {
       id: '0-0',
       name: 'Stream 1',
-      url: 'https://euro.footem.in/p/world-cup-qualification.html',
+      url: 'https://ftmtime.blogspot.com/p/11.html',
       quality: 'HD',
       language: 'English'
     },
     {
       id: '0-0',
       name: 'Stream 2',
-      url: 'https://live.epicsportss.com/p/matchday17.html',
+      url: 'https://live.epicsportss.com/p/matchday-28.html',
       quality: '4K',
       language: 'English'
     },
      {
       id: '0-0',
       name: 'Stream 3',
-      url: 'https://youtube.com/live/jGkWUUzXDvE?feature=share',
+      url: 'https://euro.footem.in/p/ars.html',
       quality: '4K',
       language: 'Youtube'
     }
