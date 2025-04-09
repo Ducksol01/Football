@@ -25,11 +25,11 @@ export const socialLinks = {
 export const matches: Match[] = [
   {
     id: '1',
-    homeTeam: 'Atletico Madrid',
-    awayTeam: 'Barcelona',
-    date: '2025-03-20',
-    time: '20:00',
-    competition: 'Fifa',
+    homeTeam: 'Barcelona',
+    awayTeam: 'Dortmund',
+    date: '10',
+    time: '12:30',
+    competition: 'ucl',
     status: 'upcoming'
   },
   // {
