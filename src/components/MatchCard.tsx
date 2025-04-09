@@ -10,7 +10,7 @@ interface MatchCardProps {
 export const MatchCard: React.FC<MatchCardProps> = ({ match }) => {
   return (
     <Link to={`/match/${match.id}`}>
-      <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 cursor-pointer">
+      <div className="card-football rounded-lg shadow-md hover:shadow-lg transition-shadow p-6 cursor-pointer">
         <div className="flex justify-between items-center mb-4">
           <span className="text-sm font-semibold text-blue-600">{match.competition}</span>
           <span className={`px-3 py-1 rounded-full text-xs font-medium ${

@@ -18,7 +18,7 @@ export const MatchDetails: React.FC = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-transparent">
       <Header />
       <div className="container mx-auto px-4 py-8">
         <Link to="/" className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-6">
@@ -26,7 +26,7 @@ export const MatchDetails: React.FC = () => {
           Back to matches
         </Link>
 
-        <div className="bg-white rounded-lg shadow-md p-6 mb-8">
+        <div className="card-football rounded-lg shadow-md p-6 mb-8">
           <div className="text-center mb-6">
             <p className="text-sm font-semibold text-blue-600 mb-2">{match.competition}</p>
             <div className="text-2xl font-bold mb-2">
@@ -38,11 +38,11 @@ export const MatchDetails: React.FC = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded-lg shadow-md p-6">
+        <div className="card-football rounded-lg shadow-md p-6">
           <h2 className="text-xl font-semibold mb-4">Watch Links</h2>
           <div className="space-y-4">
             {links.map((link) => (
-              <div key={link.id} className="border rounded-lg p-4 hover:border-blue-500 transition-colors">
+              <div key={link.id} className="border rounded-lg p-4 hover:border-blue-500 transition-colors bg-white bg-opacity-80">
                 <div className="flex justify-between items-center">
                   <div>
                     <h3 className="font-semibold">{link.name}</h3>

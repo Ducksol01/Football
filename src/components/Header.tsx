@@ -5,7 +5,7 @@ import { socialLinks } from '../types';
 
 export const Header: React.FC = () => {
   return (
-    <header className="bg-blue-600 text-white py-6">
+    <header className="bg-football-primary text-white py-6 backdrop-filter backdrop-blur-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
