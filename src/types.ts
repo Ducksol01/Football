@@ -65,21 +65,21 @@ export const watchLinks: Record<string, WatchLink[]> = {
     {
       id: '0-0',
       name: 'Stream 1',
-      url: 'https://ftmtime.blogspot.com/p/11.html',
+      url: 'https://ftmtime.blogspot.com/p/iframe7.html?r=aHR0cHM6Ly9yb3pvLmxvZ2ludG8ubWUvYmVpbjEuaHRtbA==',
       quality: 'HD',
       language: 'English'
     },
     {
       id: '0-0',
       name: 'Stream 2',
-      url: 'https://live.epicsportss.com/p/matchday-28.html',
+      url: 'https://dreammlivvexx.blogspot.com/p/epl-2.html',
       quality: '4K',
       language: 'English'
     },
      {
       id: '0-0',
       name: 'Stream 3',
-      url: 'https://euro.footem.in/p/ars.html',
+      url: 'https://ftmtime.blogspot.com/p/4z.html',
       quality: '4K',
       language: 'Youtube'
     }
