@@ -70,8 +70,8 @@ export const socialLinks = {
 export const matches: Match[] = [
   {
     id: '1',
-    homeTeam: 'Atletico Madrid',
-    awayTeam: 'Barcelona',
+    homeTeam: 'Barcelona',
+    awayTeam: 'Inter',
     date: '2025-03-20',
     time: '20:00',
     competition: 'Fifa',
@@ -110,21 +110,21 @@ export const watchLinks: Record<string, WatchLink[]> = {
     {
       id: '0-0',
       name: 'Stream 1',
-      url: 'https://ftmtime.blogspot.com/p/11.html',
+      url: 'https://ftmtime.blogspot.com/p/iframe7.html?r=aHR0cHM6Ly93d3cudHZtYWxheXNpYS5saXZlL2NoYW5uZWwvYmVpbi1zcG9ydHMtMw%3D%3D&m=1',
       quality: 'HD',
       language: 'English'
     },
     {
       id: '0-0',
       name: 'Stream 2',
-      url: 'https://live.epicsportss.com/p/matchday-28.html',
+      url: 'https://ftmtime.blogspot.com/p/4z.html',
       quality: '4K',
       language: 'English'
     },
      {
       id: '0-0',
       name: 'Stream 3',
-      url: 'https://euro.footem.in/p/ars.html',
+      url: 'https://ftmtime.blogspot.com/p/6.html',
       quality: '4K',
       language: 'Youtube'
     }
