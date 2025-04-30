@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 import { matches, watchLinks } from '../types';
 import { Header } from '../components/Header';
+import { Footer } from '../components/Footer';
 
 export const MatchDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -70,6 +71,7 @@ export const MatchDetails: React.FC = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

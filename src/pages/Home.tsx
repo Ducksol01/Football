@@ -1,7 +1,9 @@
 import React from 'react';
-import { matches } from '../types';
+import { matches, blogs } from '../types';
 import { MatchCard } from '../components/MatchCard';
 import { Header } from '../components/Header';
+import { BlogList } from '../components/BlogList';
+import { Footer } from '../components/Footer';
 
 export const Home: React.FC = () => {
   return (
@@ -13,7 +15,10 @@ export const Home: React.FC = () => {
             <MatchCard key={match.id} match={match} />
           ))}
         </div>
+        
+        <BlogList blogs={blogs} />
       </main>
+      <Footer />
     </div>
   );
 };
