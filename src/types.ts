@@ -117,14 +117,14 @@ export const watchLinks: Record<string, WatchLink[]> = {
     {
       id: '0-0',
       name: 'Stream 2',
-      url: 'https://ftmtime.blogspot.com/p/4z.html',
+      url: 'https://ftmtime.blogspot.com/p/iframe3.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPXR1ZG4=',
       quality: '4K',
       language: 'English'
     },
      {
       id: '0-0',
       name: 'Stream 3',
-      url: 'https://ftmtime.blogspot.com/p/6.html',
+      url: 'https://ftmtime.blogspot.com/p/iframe.html?r=aHR0cHM6Ly9lbnZpdm8xLmNvbS9ydGwucGhw',
       quality: '4K',
       language: 'Youtube'
     }
