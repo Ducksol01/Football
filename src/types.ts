@@ -70,12 +70,12 @@ export const socialLinks = {
 export const matches: Match[] = [
   {
     id: '1',
-    homeTeam: 'Barcelona',
-    awayTeam: 'Inter',
+    homeTeam: 'Porntugal',
+    awayTeam: 'Spain',
     date: '2025-03-20',
     time: '20:00',
-    competition: 'Fifa',
-    status: 'upcoming'
+    competition: 'UEFA',
+    status: 'Live'
   },
   // {
   //   id: '2',
@@ -110,21 +110,21 @@ export const watchLinks: Record<string, WatchLink[]> = {
     {
       id: '0-0',
       name: 'Stream 1',
-      url: 'https://ftmtime.blogspot.com/p/iframe7.html?r=aHR0cHM6Ly93d3cudHZtYWxheXNpYS5saXZlL2NoYW5uZWwvYmVpbi1zcG9ydHMtMw%3D%3D&m=1',
+      url: 'https://ftmtime.blogspot.com/p/iframe3.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWVzcG4=',
       quality: 'HD',
       language: 'English'
     },
     {
       id: '0-0',
       name: 'Stream 2',
-      url: 'https://ftmtime.blogspot.com/p/iframe3.html?r=aHR0cHM6Ly9sYTEyaGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPXR1ZG4=',
+      url: 'https://edsssa.blogspot.com/p/1n.html',
       quality: '4K',
       language: 'English'
     },
      {
       id: '0-0',
       name: 'Stream 3',
-      url: 'https://ftmtime.blogspot.com/p/iframe.html?r=aHR0cHM6Ly9lbnZpdm8xLmNvbS9ydGwucGhw',
+      url: 'https://roxxxxlive.blogspot.com/p/volly-2.html',
       quality: '4K',
       language: 'Youtube'
     }
